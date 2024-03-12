@@ -55,8 +55,8 @@ public class Exercise04 {
           count[marks[i]]--;
       }
       for (int i = 0; i < n; i++) {
-          names[i] = output_names[i];
-          marks[i] = output_marks[i];
+          names[i] = output_names[n - i - 1];
+          marks[i] = output_marks[n - i - 1];
       }
 
 
